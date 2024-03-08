@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <link rel="stylesheet" href="test.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Test</h1>
+    </header>
+    <div class="overlay" id="loadingOverlay">
+        <div class="loading-message" style="font-size: 20px;">Loading...</div>
+    </div>
+    <main>
+        <div class="quesbank">
+            <div class="question" id="q">
+                <h2></h2>
+                <p></p>
+                <ul class="options">
+                    <li class="option"><input type="radio" name="q" value="a"></li>
+                    <li class="option"><input type="radio" name="q" value="b"></li>
+                    <li class="option"><input type="radio" name="q" value="c"></li>
+                    <li class="option"><input type="radio" name="q" value="d"></li>
+                </ul>
+            </div>
+            <hr>
+    
+            <button class="submit button">Submit</button>
+            <button class="previous button">Previous</button>
+            <button class="next button">Next</button>
+            <button class="finish button">Finish</button>
+        </div>
+        <div class="sidebar">
+            <h3>Question Numbers</h3>
+            <div class="ques">
+                <!-- <div class="question-number"></div> -->
+            </div>
+            
+        </div>
+        
+    </main>
+    <script src="test.js"></script>
+</body>
+</html>
